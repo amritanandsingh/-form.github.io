@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(
+    117.06deg,
+    #4ec8fc 2.2%,
+    rgba(144, 78, 252, 0.67) 88.15%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv {
+  width: 79.115vw;
+  height: 79.352vh;
+  background: #ffffff;
+  border-radius: 30px;
+  display: flex;
+}
+.leftimg {
+  width: 54.896vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftimg img {
+  width: 42.448vw;
+  height: 71.759vh;
+  left: 47px;
+  top: 46px;
+}
+.rightform {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.ptitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 500;
+}
+form {
+  width: 23.854vw;
+  margin-top: 13px;
+}
+form label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.4837px;
+  line-height: 26px;
+}
+.labelform {
+  margin-top: 20px;
+}
+form input {
+  width: 23.854vw;
+  height: 4.815vh;
+  background: rgba(228, 241, 255, 0.78);
+  border-radius: 6.99346px;
+  border-style: none;
+  margin-top: 6px;
+}
+.pass {
+  display: flex;
+}
+.svg1 {
+  position: absolute;
+  margin-left: 21vw;
+  margin-top: 2vh;
+  width: 20px;
+}
+.signbtn {
+  width: 23.854vw;
+  display: flex;
+  justify-content: center;
+}
+.signup {
+  width: 9.849vw;
+  height: 4.554vh;
+  background: #0075ff;
+  border-radius: 6.99346px;
+  color: white;
+  border-style: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 26px;
+}
+.contact {
+  width: 23.854vw;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.9869px;
+  line-height: 21px;
+
+  /* identical to box height */
+
+  color: rgba(82, 82, 82, 0.8);
+  margin-top: 30px;
+  position: relative;
+}
+
+.contact::before {
+  position: absolute;
+  content: "";
+  width: 35%;
+  top: 40%;
+  left: -5%;
+  border: 0.699346px solid rgba(82, 82, 82, 0.5);
+}
+.contact::after {
+  position: absolute;
+  content: "";
+  width: 35%;
+  top: 40%;
+  right: -5%;
+  border: 0.699346px solid rgba(82, 82, 82, 0.5);
+}
+.icons {
+  width: 23.854vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.icons img {
+  width: 20px;
+  margin-left: 36px;
+}
+.text {
+  width: 23.854vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.4837px;
+  line-height: 20px;
+  margin-top: 25px;
+}
+@media (max-width: 468px) {
+  .leftimg {
+    display: none;
+  }
+  .pass {
+    width: 81vw;
+  }
+  form input {
+    width: 63.854vw;
+    height: 4.815vh;
+  }
+  .svg1 {
+    margin-left: 55vw;
+  }
+  .signup {
+    width: 23.849vw;
+  }
+  .signbtn {
+    width: 61.854vw;
+  }
+  .contact {
+    width: 61.854vw;
+  }
+  .contact::before {
+    width: 20%;
+    left: 0%;
+  }
+  .contact::after {
+    width: 20%;
+    right: 0%;
+  }
+  .icons {
+    width: 49.854vw;
+  }
+  .text {
+    width: 59.854vw;
+
+    font-size: 9.484px;
+  }
+}
